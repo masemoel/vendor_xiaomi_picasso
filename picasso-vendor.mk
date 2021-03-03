@@ -359,6 +359,7 @@ PRODUCT_PACKAGES += \
     dpmapi \
     embmslibrary \
     qcrilhook \
+    qti-telephony-common \
     qti-telephony-hidl-wrapper \
     qti-telephony-utils \
     remotesimlockmanagerlibrary \
