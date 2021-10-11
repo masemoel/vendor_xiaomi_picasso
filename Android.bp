@@ -5,17 +5,6 @@
 soong_namespace {
 }
 
-android_app_import {
-	name: "PerformanceMode",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/PerformanceMode/PerformanceMode.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
 cc_prebuilt_library_shared {
 	name: "vendor.qti.hardware.alarm@1.0",
 	owner: "xiaomi",

@@ -322,7 +322,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.alarm@1.0 \
     PowerOffAlarm \
-    PerformanceMode \
     vendor.qti.hardware.alarm-V1.0-java \
     QtiTelephonyService \
     WigigTetheringRRO \
