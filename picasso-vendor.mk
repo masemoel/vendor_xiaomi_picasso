@@ -320,9 +320,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/picasso/proprietary/system_ext/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.latency@2.0.so
 
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.alarm@1.0 \
     PowerOffAlarm \
-    vendor.qti.hardware.alarm-V1.0-java \
     QtiTelephonyService \
     WigigTetheringRRO \
     atfwd \
